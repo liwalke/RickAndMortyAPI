@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="./index.js" defer></script>
+    <script src="./assets/js/pagination.js" defer></script>
+    <script src="./assets/js/card.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/css/pagination.css">
+</head>
+
+<body onload="onLoadEvent(event)">
+    <header>
+        <div class="logo">
+            <img src="./assets/img/Rick-And-Morty-Logo.png" alt="Rick and Morty logo">
+        </div>
+    </header>
+    <div class="header-space"></div>
+    <section>
+        <div id="character-card" class="card-conteiner">
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt=""></img><p>Rick Sanchez</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt=""></img><p>Morty Smith</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" alt=""></img><p>Summer Smith</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/4.jpeg" alt=""></img><p>Beth Smith</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/5.jpeg" alt=""></img><p>Jerry Smith</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/6.jpeg" alt=""></img><p>Abadango Cluster Princess</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/7.jpeg" alt=""></img><p>Abradolf Lincler</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/8.jpeg" alt=""></img><p>Adjudicator Rick</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/9.jpeg" alt=""></img><p>Agency Director</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/10.jpeg" alt=""></img><p>Alan Rails</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/11.jpeg" alt=""></img><p>Albert Einstein</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/12.jpeg" alt=""></img><p>Alexander</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/13.jpeg" alt=""></img><p>Alien Googah</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/14.jpeg" alt=""></img><p>Alien Morty</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/15.jpeg" alt=""></img><p>Alien Rick</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/16.jpeg" alt=""></img><p>Amish Cyborg</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/17.jpeg" alt=""></img><p>Annie</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/18.jpeg" alt=""></img><p>Antenna Morty</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/19.jpeg" alt=""></img><p>Antenna Rick</p></div>
+            <div class="flex-item"><img src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt=""></img><p>Ants in my Eyes Johnson</p></div>
+        </div>
+        <div id="pagination-1" class="pagination"></div>
+    </section>
+</body>
+
+</html>
